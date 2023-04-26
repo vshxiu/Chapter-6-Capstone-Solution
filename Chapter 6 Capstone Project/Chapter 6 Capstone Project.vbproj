@@ -119,5 +119,74 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j25.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
