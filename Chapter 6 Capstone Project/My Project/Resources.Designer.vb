@@ -123,6 +123,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property j06() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("j06", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property j07() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("j07", resourceCulture)
@@ -193,6 +203,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property j14() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("j14", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property j15() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("j15", resourceCulture)
@@ -256,6 +276,16 @@ Namespace My.Resources
         Friend ReadOnly Property j21() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("j21", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property j22() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("j22", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

@@ -136,6 +136,9 @@
   <data name="j05" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\j05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="j06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\j06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="j07" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\j07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -157,6 +160,9 @@
   <data name="j13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\j13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="j14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\j14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="j15" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\j15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -177,6 +183,9 @@
   </data>
   <data name="j21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\j21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="j22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\j22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="j23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\j23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
