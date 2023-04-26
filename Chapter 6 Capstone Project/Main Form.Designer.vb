@@ -29,30 +29,30 @@ Partial Class frmMain
         '
         'btnSpin
         '
-        Me.btnSpin.Location = New System.Drawing.Point(369, 249)
-        Me.btnSpin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnSpin.Location = New System.Drawing.Point(277, 202)
         Me.btnSpin.Name = "btnSpin"
-        Me.btnSpin.Size = New System.Drawing.Size(100, 28)
+        Me.btnSpin.Size = New System.Drawing.Size(75, 23)
         Me.btnSpin.TabIndex = 0
         Me.btnSpin.Text = "&Spin!"
         Me.btnSpin.UseVisualStyleBackColor = True
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(131, 59)
+        Me.PictureBox1.Location = New System.Drawing.Point(98, 48)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(196, 182)
+        Me.PictureBox1.Size = New System.Drawing.Size(147, 148)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
         'frmMain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(508, 318)
+        Me.ClientSize = New System.Drawing.Size(381, 258)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnSpin)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmMain"
         Me.Text = "???"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
