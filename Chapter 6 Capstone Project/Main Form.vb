@@ -3,9 +3,9 @@
 'Programmer:  Keteyian & Sophia on 04.26.2023
 
 
-Option Infer Off
-Option Strict On
-Option Explicit On
+Option Infer On
+Option Strict Off
+Option Explicit Off
 
 
 
@@ -1925,5 +1925,51 @@ Public Class frmMain
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         PictureBox1.Image = My.Resources.j00
         'poo
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim sr As New System.IO.StreamReader("C:\Users\Kcade2985\Downloads\YoMAMA.txt")
+        Dim sr2 As New System.IO.StreamReader("C:\Users\Kcade2985\Downloads\YoMAMA.txt")
+        Dim index As Integer = 0
+        Dim currentline As Integer = 0
+        Dim random As Integer = 0
+        Label1.Text = ""
+        Do Until sr.EndOfStream = True
+            sr.ReadLine()
+            index += 1
+        Loop
+
+        Randomize()
+        random = Rnd() * index
+        Do Until currentline = random
+            TextBox1.Text = sr2.ReadLine
+            currentline += 1
+        Loop
+
+        Dim intLength As Integer
+        intLength = TextBox1.Text.Length
+
+        For intx As Integer = 1 To intLength
+            Label1.Text += "_ "
+        Next intx
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        'If TextBox1.Text.Trim.ToUpper Like "[a-z][a-z][a-z][a-z][a-z]" Then
+        '    'grpWord.Enabled = False
+        '    'grpLetter.Enabled = True
+        '    Label1.Text = "_____"
+        '    'txtLetter.Focus()
+        'Else
+        '    MessageBox.Show("Please enter 5 letters.", "Guess the Word Game",
+        '                    MessageBoxButtons.OK, MessageBoxIcon.Information)
+        'End If
+
+        'Dim intLength As Integer
+        'intLength = TextBox1.Text.Length
+
+        'For intx As Integer = 1 To intLength
+        '    Label1.Text += "-"
+        'Next intx
     End Sub
 End Class
