@@ -10,7 +10,22 @@ Option Explicit Off
 
 
 Public Class frmMain
+
+
+    Private strFile1Name As String
+
     Private Async Sub btnSpin_Click(sender As Object, e As EventArgs) Handles btnSpin.Click
+
+
+
+
+
+
+
+
+
+
+
 
         btnSpin.Enabled = False
 
@@ -1927,9 +1942,48 @@ Public Class frmMain
         'poo
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Dim sr As New System.IO.StreamReader("C:\Users\Kcade2985\Downloads\YoMAMA.txt")
-        Dim sr2 As New System.IO.StreamReader("C:\Users\Kcade2985\Downloads\YoMAMA.txt")
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnGenerate.Click
+
+
+
+        Dim file1 As OpenFileDialog = New OpenFileDialog()
+
+        Dim inFile As IO.StreamReader
+
+        Dim strLine As String
+        Dim strName As String
+
+        file1.Title = "Open File Dialog"
+        file1.InitialDirectory = "C:\"
+        file1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*"
+        file1.FilterIndex = 1
+        file1.RestoreDirectory = True
+
+        If file1.ShowDialog() = DialogResult.OK Then
+            strFile1Name = file1.FileName
+            'outFile = IO.File.CreateText(strFile1Name)
+
+        End If
+        If IO.File.Exists(strFile1Name) Then
+            Dim intCount As Integer = 0
+
+            inFile = IO.File.OpenText(strFile1Name)
+            Do Until inFile.Peek = -1
+                strLine = inFile.ReadLine
+
+
+            Loop
+
+
+
+
+
+
+            inFile.Close()
+
+        End If
+        Dim sr As New System.IO.StreamReader(strFile1Name)
+        Dim sr2 As New System.IO.StreamReader(strFile1Name)
         Dim index As Integer = 0
         Dim currentline As Integer = 0
         Dim random As Integer = 0
@@ -1954,22 +2008,5 @@ Public Class frmMain
         Next intx
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        'If TextBox1.Text.Trim.ToUpper Like "[a-z][a-z][a-z][a-z][a-z]" Then
-        '    'grpWord.Enabled = False
-        '    'grpLetter.Enabled = True
-        '    Label1.Text = "_____"
-        '    'txtLetter.Focus()
-        'Else
-        '    MessageBox.Show("Please enter 5 letters.", "Guess the Word Game",
-        '                    MessageBoxButtons.OK, MessageBoxIcon.Information)
-        'End If
 
-        'Dim intLength As Integer
-        'intLength = TextBox1.Text.Length
-
-        'For intx As Integer = 1 To intLength
-        '    Label1.Text += "-"
-        'Next intx
-    End Sub
 End Class

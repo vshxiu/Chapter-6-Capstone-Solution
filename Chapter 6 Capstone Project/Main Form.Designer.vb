@@ -24,8 +24,7 @@ Partial Class frmMain
     Private Sub InitializeComponent()
         Me.btnSpin = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnGenerate = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -33,10 +32,9 @@ Partial Class frmMain
         '
         'btnSpin
         '
-        Me.btnSpin.Location = New System.Drawing.Point(992, 308)
-        Me.btnSpin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnSpin.Location = New System.Drawing.Point(705, 267)
         Me.btnSpin.Name = "btnSpin"
-        Me.btnSpin.Size = New System.Drawing.Size(100, 28)
+        Me.btnSpin.Size = New System.Drawing.Size(75, 23)
         Me.btnSpin.TabIndex = 0
         Me.btnSpin.Text = "&Spin!"
         Me.btnSpin.UseVisualStyleBackColor = True
@@ -44,63 +42,56 @@ Partial Class frmMain
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Chapter_6_Capstone_Project.My.Resources.Resources.j00
-        Me.PictureBox1.Location = New System.Drawing.Point(41, 31)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.PictureBox1.Location = New System.Drawing.Point(31, 25)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(859, 630)
+        Me.PictureBox1.Size = New System.Drawing.Size(644, 512)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
-        'Button1
+        'btnGenerate
         '
-        Me.Button1.Location = New System.Drawing.Point(0, 0)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(940, 105)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnGenerate.Location = New System.Drawing.Point(709, 82)
+        Me.btnGenerate.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnGenerate.Name = "btnGenerate"
+        Me.btnGenerate.Size = New System.Drawing.Size(125, 27)
+        Me.btnGenerate.TabIndex = 3
+        Me.btnGenerate.Text = "&Generate your word!"
+        Me.btnGenerate.UseVisualStyleBackColor = True
         '
         'Label1
         '
         Me.Label1.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(940, 149)
+        Me.Label1.Location = New System.Drawing.Point(705, 121)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(287, 40)
+        Me.Label1.Size = New System.Drawing.Size(215, 32)
         Me.Label1.TabIndex = 4
         '
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(940, 207)
+        Me.TextBox1.Location = New System.Drawing.Point(705, 168)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(287, 30)
+        Me.TextBox1.Size = New System.Drawing.Size(216, 26)
         Me.TextBox1.TabIndex = 5
+        Me.TextBox1.Visible = False
         '
         'frmMain
         '
         Me.AcceptButton = Me.btnSpin
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.ClientSize = New System.Drawing.Size(1639, 780)
+        Me.ClientSize = New System.Drawing.Size(1028, 609)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnGenerate)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnSpin)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmMain"
         Me.Text = "???"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -111,8 +102,7 @@ Partial Class frmMain
 
     Friend WithEvents btnSpin As Button
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnGenerate As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents TextBox1 As TextBox
 End Class
