@@ -365,11 +365,12 @@ Partial Class frmGuess
         '
         Me.lblWord.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.lblWord.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.lblWord.Location = New System.Drawing.Point(400, 29)
+        Me.lblWord.Location = New System.Drawing.Point(369, 29)
         Me.lblWord.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblWord.Name = "lblWord"
-        Me.lblWord.Size = New System.Drawing.Size(266, 54)
+        Me.lblWord.Size = New System.Drawing.Size(350, 86)
         Me.lblWord.TabIndex = 39
+        Me.lblWord.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnGenerate
         '

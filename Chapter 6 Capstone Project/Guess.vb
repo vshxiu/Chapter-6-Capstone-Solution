@@ -1,5 +1,5 @@
 ﻿'Name:        Chapter 6/7 Capstone Project
-'Purpose:     ???
+'Purpose:     Imitate Wheel of Fortune
 'Programmer:  Keteyian & Sophia on 04.26.2023
 
 
@@ -13,7 +13,7 @@ Public Class frmGuess
     Private strFile1Name As String
 
     Function GuessLetter(ByVal strLetter As String) As Boolean
-        btnQ.Enabled = False
+
         Dim strWord As String
         Dim boo As Boolean
         Dim strResult As String
@@ -34,7 +34,13 @@ Public Class frmGuess
             lblWord.Text = strResult
             'Determine whether strResult contains any hyphens.
             boo = True
+            If strResult.Contains("_") = False Then
+                MessageBox.Show("You guessed it: " & strWord, "Guess the
+Word game", MessageBoxButtons.OK,
+                MessageBoxIcon.Information)
 
+
+            End If
 
         Else
             MessageBox.Show("Try again!", "Guess the Word Game",
@@ -43,24 +49,12 @@ Public Class frmGuess
         End If
         'txtLetter.Text = String.Empty
 
-        If strResult.Contains("-") = False Then
-            MessageBox.Show("You guessed it: " & strWord, "Guess the
-Word game", MessageBoxButtons.OK,
-            MessageBoxIcon.Information)
 
-
-            txtWord.Focus()
-        End If
 
         Return boo
     End Function
     Private Sub btnGenerate_Click(sender As Object, e As EventArgs) Handles btnGenerate.Click
-        btnGenerate.Enabled = False
-    End Sub
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs)
-
-
+        'btnGenerate.Enabled = False
         Dim randNum As New Random
 
 
@@ -92,7 +86,7 @@ Word game", MessageBoxButtons.OK,
             sr.ReadLine()
             index += 1
         Loop
-        random = randNum.Next(1, index)
+        random = randNum.Next(1, index + 1)
 
         Do Until currentline = random
             txtWord.Text = sr2.ReadLine
@@ -105,6 +99,23 @@ Word game", MessageBoxButtons.OK,
         For intx As Integer = 1 To intLength
             lblWord.Text += "_ "
         Next intx
+
+
+
+        Dim strWord As String
+        Dim boo As Boolean
+        Dim strResult As String
+        strWord = txtWord.Text.Trim.ToUpper
+
+
+
+        strResult = lblWord.Text
+        For intIndex As Integer = 0 To strWord.Length - 1
+            If strWord(intIndex) = " " Then
+                strResult = strResult.Remove(intIndex, 1)
+                strResult = strResult.Insert(intIndex, " ")
+            End If
+        Next intIndex
     End Sub
 
 
@@ -127,16 +138,424 @@ Word game", MessageBoxButtons.OK,
     End Sub
 
     Private Sub btnQ_Click(sender As Object, e As EventArgs) Handles btnQ.Click
+        btnQ.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
         strLetter = "Q"
         boo = GuessLetter(strLetter)
         If boo = True Then
 
-
+            btnQ.BackColor = Color.Green
         Else
-
+            btnQ.BackColor = Color.Red
         End If
 
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnW_Click(sender As Object, e As EventArgs) Handles btnW.Click
+        btnW.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "W"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnW.BackColor = Color.Green
+        Else
+            btnW.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub btnE_Click(sender As Object, e As EventArgs) Handles btnE.Click
+        btnE.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "E"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnE.BackColor = Color.Green
+        Else
+            btnE.BackColor = Color.Red
+        End If
+
+
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnR_Click(sender As Object, e As EventArgs) Handles btnR.Click
+        btnR.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "R"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnR.BackColor = Color.Green
+        Else
+            btnR.BackColor = Color.Red
+        End If
+
+
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnT_Click(sender As Object, e As EventArgs) Handles btnT.Click
+        btnT.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "T"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnT.BackColor = Color.Green
+        Else
+            btnT.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnY_Click(sender As Object, e As EventArgs) Handles btnY.Click
+        btnY.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "Y"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnY.BackColor = Color.Green
+        Else
+            btnY.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnU_Click(sender As Object, e As EventArgs) Handles btnU.Click
+        btnU.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "U"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnU.BackColor = Color.Green
+        Else
+            btnU.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnI_Click(sender As Object, e As EventArgs) Handles btnI.Click
+        btnI.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "I"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnI.BackColor = Color.Green
+        Else
+            btnI.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnO_Click(sender As Object, e As EventArgs) Handles btnO.Click
+        btnO.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "O"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnO.BackColor = Color.Green
+        Else
+            btnO.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnP_Click(sender As Object, e As EventArgs) Handles btnP.Click
+        btnP.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "P"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnP.BackColor = Color.Green
+        Else
+            btnP.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnA_Click(sender As Object, e As EventArgs) Handles btnA.Click
+        btnA.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "A"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnA.BackColor = Color.Green
+        Else
+            btnA.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnS_Click(sender As Object, e As EventArgs) Handles btnS.Click
+        btnS.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "S"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnS.BackColor = Color.Green
+        Else
+            btnS.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnD_Click(sender As Object, e As EventArgs) Handles btnD.Click
+        btnD.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "D"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnD.BackColor = Color.Green
+        Else
+            btnD.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnF_Click(sender As Object, e As EventArgs) Handles btnF.Click
+        btnF.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "F"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnF.BackColor = Color.Green
+        Else
+            btnF.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnG_Click(sender As Object, e As EventArgs) Handles btnG.Click
+        btnG.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "G"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnG.BackColor = Color.Green
+        Else
+            btnG.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnH_Click(sender As Object, e As EventArgs) Handles btnH.Click
+        btnH.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "H"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnH.BackColor = Color.Green
+        Else
+            btnH.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnJ_Click(sender As Object, e As EventArgs) Handles btnJ.Click
+        btnJ.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "J"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnJ.BackColor = Color.Green
+        Else
+            btnJ.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnK_Click(sender As Object, e As EventArgs) Handles btnK.Click
+        btnK.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "K"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnK.BackColor = Color.Green
+        Else
+            btnK.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnL_Click(sender As Object, e As EventArgs) Handles btnL.Click
+        btnL.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "L"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnL.BackColor = Color.Green
+        Else
+            btnL.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnZ_Click(sender As Object, e As EventArgs) Handles btnZ.Click
+        btnZ.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "Z"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnZ.BackColor = Color.Green
+        Else
+            btnZ.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnX_Click(sender As Object, e As EventArgs) Handles btnX.Click
+        btnX.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "X"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnX.BackColor = Color.Green
+        Else
+            btnX.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnC_Click(sender As Object, e As EventArgs) Handles btnC.Click
+        btnC.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "C"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnC.BackColor = Color.Green
+        Else
+            btnC.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnV_Click(sender As Object, e As EventArgs) Handles btnV.Click
+        btnV.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "V"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnV.BackColor = Color.Green
+        Else
+            btnV.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnB_Click(sender As Object, e As EventArgs) Handles btnB.Click
+        btnB.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "B"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnB.BackColor = Color.Green
+        Else
+            btnB.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnN_Click(sender As Object, e As EventArgs) Handles btnN.Click
+        btnN.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "N"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnN.BackColor = Color.Green
+        Else
+            btnN.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnM_Click(sender As Object, e As EventArgs) Handles btnM.Click
+        btnM.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "M"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnM.BackColor = Color.Green
+        Else
+            btnM.BackColor = Color.Red
+        End If
+        frmSpin.Show()
+        Me.Hide()
     End Sub
 End Class

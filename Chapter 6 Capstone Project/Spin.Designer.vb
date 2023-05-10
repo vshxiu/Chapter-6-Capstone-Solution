@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class frmMain
+Partial Class frmSpin
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -47,16 +47,16 @@ Partial Class frmMain
         Me.picWheel.TabIndex = 1
         Me.picWheel.TabStop = False
         '
-        'frmMain
+        'frmSpin
         '
         Me.AcceptButton = Me.btnSpin
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.ClientSize = New System.Drawing.Size(817, 609)
+        Me.ClientSize = New System.Drawing.Size(813, 569)
         Me.Controls.Add(Me.picWheel)
         Me.Controls.Add(Me.btnSpin)
-        Me.Name = "frmMain"
+        Me.Name = "frmSpin"
         Me.Text = "???"
         CType(Me.picWheel, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

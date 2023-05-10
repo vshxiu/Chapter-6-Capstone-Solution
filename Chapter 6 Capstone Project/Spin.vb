@@ -1,5 +1,5 @@
 ﻿'Name:        Chapter 6/7 Capstone Project
-'Purpose:     ???
+'Purpose:     Imitate Wheel of Fortune
 'Programmer:  Keteyian & Sophia on 04.26.2023
 
 
@@ -9,7 +9,7 @@ Option Explicit On
 
 
 
-Public Class frmMain
+Public Class frmSpin
 
 
     Private strFile1Name As String
