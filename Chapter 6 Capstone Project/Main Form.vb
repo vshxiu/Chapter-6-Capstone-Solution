@@ -3,9 +3,9 @@
 'Programmer:  Keteyian & Sophia on 04.26.2023
 
 
-Option Infer On
-Option Strict Off
-Option Explicit Off
+Option Infer Off
+Option Strict On
+Option Explicit On
 
 
 
@@ -15,15 +15,6 @@ Public Class frmMain
     Private strFile1Name As String
 
     Private Async Sub btnSpin_Click(sender As Object, e As EventArgs) Handles btnSpin.Click
-
-
-
-
-
-
-
-
-
 
 
 
