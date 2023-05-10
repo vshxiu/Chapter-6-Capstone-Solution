@@ -35,225 +35,94 @@ Public Class frmMain
 
         intRand = randGen.Next(1, 26)
 
-
-        For intTimer As Integer = 1 To 2
-
-            'PictureBox1.Image = My.Resources.j00
-            'Await Task.Delay(50)
-            PictureBox1.Image = My.Resources.j01
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j02
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j03
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j04
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j05
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j06
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j07
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j08
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j09
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j10
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j11
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j12
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j13
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j14
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j15
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j16
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j17
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j18
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j19
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j20
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j21
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j22
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j23
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j24
-            Await Task.Delay(1)
-            PictureBox1.Image = My.Resources.j25
-            Await Task.Delay(1)
-            'If PictureBox1.Image = My.Resources.pic Then
-
-            'End If
-        Next intTimer
-
-        For intTimer As Integer = 1 To 1
-
-
-
-
-            PictureBox1.Image = My.Resources.j01
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j02
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j03
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j04
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j05
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j06
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j07
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j08
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j09
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j10
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j11
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j12
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j13
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j14
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j15
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j16
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j17
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j18
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j19
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j20
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j21
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j22
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j23
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j24
-            Await Task.Delay(40)
-            PictureBox1.Image = My.Resources.j25
-            Await Task.Delay(40)
-            'If PictureBox1.Image = My.Resources.pic Then
-
-            'End If
-        Next intTimer
-        If intRand < 14 Then
+        If intRand < 13 Then
             For intTimer As Integer = 1 To 1
 
 
 
 
-                'PictureBox1.Image = My.Resources.j00
-                'Await Task.Delay(50)
-                PictureBox1.Image = My.Resources.j01
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j11
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j12
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j25
-                Await Task.Delay(70)
-                'If PictureBox1.Image = My.Resources.pic Then
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j10
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j11
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j12
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(1)
 
-                'End If
             Next intTimer
+
+
+        ElseIf intRand > 12 Then
+            picWheel.Image = My.Resources.j01
+            Await Task.Delay(1)
+            picWheel.Image = My.Resources.j02
+            Await Task.Delay(1)
+            picWheel.Image = My.Resources.j03
+            Await Task.Delay(1)
+            picWheel.Image = My.Resources.j04
+            Await Task.Delay(1)
+            picWheel.Image = My.Resources.j05
+            Await Task.Delay(1)
+            picWheel.Image = My.Resources.j06
+            Await Task.Delay(1)
+            picWheel.Image = My.Resources.j07
+            Await Task.Delay(1)
+            picWheel.Image = My.Resources.j08
+            Await Task.Delay(1)
+            picWheel.Image = My.Resources.j09
+            Await Task.Delay(1)
+            picWheel.Image = My.Resources.j10
+            Await Task.Delay(1)
+            picWheel.Image = My.Resources.j11
+            Await Task.Delay(1)
+            picWheel.Image = My.Resources.j12
+            Await Task.Delay(1)
+
         End If
-        If intRand < 14 Then
-            For intTimer As Integer = 1 To 1
 
-                'PictureBox1.Image = My.Resources.j00
-                'Await Task.Delay(50)
-                PictureBox1.Image = My.Resources.j01
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j11
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j12
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(100)
-
-                'If PictureBox1.Image = My.Resources.pic Then
-
-                'End If
-            Next intTimer
-        End If
 
 
 
@@ -261,1754 +130,1704 @@ Public Class frmMain
         Select Case True
             Case intRand = 1
 
-                PictureBox1.Image = My.Resources.j14
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j10
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j11
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j12
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(75)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(80)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(85)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(90)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(95)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(100)
+                picWheel.Image = My.Resources.j20
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j15
+                picWheel.Image = My.Resources.j21
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j16
+                picWheel.Image = My.Resources.j22
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j17
+                picWheel.Image = My.Resources.j23
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j19
+                picWheel.Image = My.Resources.j24
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j23
+                picWheel.Image = My.Resources.j25
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j25
-                Await Task.Delay(400)
 
 
-                PictureBox1.Image = My.Resources.j01
 
+                picWheel.Image = My.Resources.j01
+
+                Await Task.Delay(500)
                 MsgBox("You pulled : 2,000!")
 
             Case intRand = 2
 
-                PictureBox1.Image = My.Resources.j14
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j10
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j11
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j12
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(75)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(80)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(85)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(90)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(95)
+                picWheel.Image = My.Resources.j20
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j15
+                picWheel.Image = My.Resources.j21
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j16
+                picWheel.Image = My.Resources.j22
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j17
+                picWheel.Image = My.Resources.j23
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j18
+                picWheel.Image = My.Resources.j24
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j20
+                picWheel.Image = My.Resources.j25
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j25
-                Await Task.Delay(375)
 
-                PictureBox1.Image = My.Resources.j01
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j02
+
+
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(350)
+                picWheel.Image = My.Resources.j02
                 MsgBox("You pulled : 1,000!")
 
             Case intRand = 3
-                PictureBox1.Image = My.Resources.j14
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j10
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j11
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j12
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(75)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(80)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(85)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(90)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(95)
+                picWheel.Image = My.Resources.j21
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j16
+                picWheel.Image = My.Resources.j22
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j17
+                picWheel.Image = My.Resources.j23
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j18
+                picWheel.Image = My.Resources.j24
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j19
+                picWheel.Image = My.Resources.j25
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j21
+
+
+
+                picWheel.Image = My.Resources.j01
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j25
-
-
+                picWheel.Image = My.Resources.j02
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j01
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j03
+                picWheel.Image = My.Resources.j03
 
                 MsgBox("You pulled : 2,000!")
             Case intRand = 4
 
-                PictureBox1.Image = My.Resources.j14
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j10
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j11
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j12
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(75)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(80)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(85)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(90)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(95)
+                picWheel.Image = My.Resources.j22
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j17
+                picWheel.Image = My.Resources.j23
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j18
+                picWheel.Image = My.Resources.j24
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j19
+                picWheel.Image = My.Resources.j25
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j20
+
+
+
+                picWheel.Image = My.Resources.j01
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j22
+                picWheel.Image = My.Resources.j02
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j25
-                Await Task.Delay(325)
-
-
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j03
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j04
+                picWheel.Image = My.Resources.j04
 
                 MsgBox("You pulled : 1,000!")
             Case intRand = 5
 
-                PictureBox1.Image = My.Resources.j14
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j10
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j11
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j12
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(75)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(80)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(85)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(90)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(95)
+                picWheel.Image = My.Resources.j23
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j18
+                picWheel.Image = My.Resources.j24
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j19
+                picWheel.Image = My.Resources.j25
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j20
+
+
+
+                picWheel.Image = My.Resources.j01
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j21
+                picWheel.Image = My.Resources.j02
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j23
+                picWheel.Image = My.Resources.j03
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j25
-                Await Task.Delay(300)
-
-
-                PictureBox1.Image = My.Resources.j01
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j02
+                picWheel.Image = My.Resources.j04
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j05
+                picWheel.Image = My.Resources.j05
 
                 MsgBox("BANKRUPT!")
             Case intRand = 6
 
-                PictureBox1.Image = My.Resources.j14
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j10
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j11
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j12
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(75)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(80)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(85)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(90)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(95)
+                picWheel.Image = My.Resources.j24
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j19
+                picWheel.Image = My.Resources.j25
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j20
+
+
+
+                picWheel.Image = My.Resources.j01
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j21
+                picWheel.Image = My.Resources.j02
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j22
+                picWheel.Image = My.Resources.j03
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j24
+                picWheel.Image = My.Resources.j04
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j25
-                Await Task.Delay(275)
-
-
-                PictureBox1.Image = My.Resources.j01
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j03
+                picWheel.Image = My.Resources.j05
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j06
+                picWheel.Image = My.Resources.j06
 
                 MsgBox("You pulled : 1,000!")
             Case intRand = 7
-                PictureBox1.Image = My.Resources.j14
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j10
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j11
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j12
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(75)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(80)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(85)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(90)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(95)
+                picWheel.Image = My.Resources.j25
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j20
+
+
+
+                picWheel.Image = My.Resources.j01
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j21
+                picWheel.Image = My.Resources.j02
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j22
+                picWheel.Image = My.Resources.j03
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j23
+                picWheel.Image = My.Resources.j04
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j25
+                picWheel.Image = My.Resources.j05
                 Await Task.Delay(250)
-
-
-                PictureBox1.Image = My.Resources.j01
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j04
+                picWheel.Image = My.Resources.j06
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j07
+                picWheel.Image = My.Resources.j07
                 MsgBox("You pulled : 2,000!")
             Case intRand = 8
-                PictureBox1.Image = My.Resources.j14
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j10
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j11
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j12
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(75)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(80)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(85)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(90)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(95)
+
+
+
+                picWheel.Image = My.Resources.j01
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j21
+                picWheel.Image = My.Resources.j02
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j22
+                picWheel.Image = My.Resources.j03
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j23
+                picWheel.Image = My.Resources.j04
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j24
+                picWheel.Image = My.Resources.j05
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j25
-                Await Task.Delay(225)
-
-
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j06
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j05
+                picWheel.Image = My.Resources.j07
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j08
+                picWheel.Image = My.Resources.j08
 
                 MsgBox("You pulled : 1,000!")
             Case intRand = 9
-                PictureBox1.Image = My.Resources.j14
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j10
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j11
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j12
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(75)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(80)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(85)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(90)
+
+
+
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(95)
+                picWheel.Image = My.Resources.j02
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j22
+                picWheel.Image = My.Resources.j03
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j23
+                picWheel.Image = My.Resources.j04
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j24
+                picWheel.Image = My.Resources.j05
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j25
+                picWheel.Image = My.Resources.j06
                 Await Task.Delay(200)
-
-
-                PictureBox1.Image = My.Resources.j01
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j02
+                picWheel.Image = My.Resources.j07
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j06
+                picWheel.Image = My.Resources.j08
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j09
+                picWheel.Image = My.Resources.j09
                 MsgBox("You lose a turn!")
             Case intRand = 10
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j10
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j11
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j12
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(75)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(80)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(85)
 
-                PictureBox1.Image = My.Resources.j14
+
+
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(90)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(95)
+                picWheel.Image = My.Resources.j03
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j23
+                picWheel.Image = My.Resources.j04
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j24
+                picWheel.Image = My.Resources.j05
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j25
+                picWheel.Image = My.Resources.j06
                 Await Task.Delay(175)
-
-
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j07
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j03
+                picWheel.Image = My.Resources.j08
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j07
+                picWheel.Image = My.Resources.j09
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j10
+                picWheel.Image = My.Resources.j10
                 MsgBox("You pulled : 1,000!")
             Case intRand = 11
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j10
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j11
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j12
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(75)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(80)
 
-                PictureBox1.Image = My.Resources.j14
+
+
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(85)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(90)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(95)
+                picWheel.Image = My.Resources.j04
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j24
+                picWheel.Image = My.Resources.j05
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j25
+                picWheel.Image = My.Resources.j06
                 Await Task.Delay(150)
-
-
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j07
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j02
+                picWheel.Image = My.Resources.j08
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j04
+                picWheel.Image = My.Resources.j09
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j08
+                picWheel.Image = My.Resources.j10
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j11
+                picWheel.Image = My.Resources.j11
 
                 MsgBox("You pulled : 1,000!")
             Case intRand = 12
 
-                PictureBox1.Image = My.Resources.j14
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j10
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j11
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j12
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(75)
+
+
+
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(80)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(85)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(90)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(95)
+                picWheel.Image = My.Resources.j05
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j25
+                picWheel.Image = My.Resources.j06
                 Await Task.Delay(125)
-
-
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j07
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j02
+                picWheel.Image = My.Resources.j08
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j03
+                picWheel.Image = My.Resources.j09
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j05
+                picWheel.Image = My.Resources.j10
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j11
+                picWheel.Image = My.Resources.j11
 
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j12
+                Await Task.Delay(350)
+                picWheel.Image = My.Resources.j12
                 MsgBox("You pulled : 1,000!")
             Case intRand = 13
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j25
-                Await Task.Delay(100)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(70)
 
-
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(75)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(80)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(85)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(90)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(95)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(100)
+                picWheel.Image = My.Resources.j07
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j02
+                picWheel.Image = My.Resources.j08
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j03
+                picWheel.Image = My.Resources.j09
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j04
+                picWheel.Image = My.Resources.j10
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j06
+                picWheel.Image = My.Resources.j11
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j10
+                picWheel.Image = My.Resources.j12
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j11
+                picWheel.Image = My.Resources.j13
 
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j12
 
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j13
 
                 MsgBox("You pulled : 10,000!")
             Case intRand = 14
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(65)
+
+                picWheel.Image = My.Resources.j01
                 Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j11
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j12
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j21
+                picWheel.Image = My.Resources.j02
                 Await Task.Delay(75)
-                PictureBox1.Image = My.Resources.j22
+                picWheel.Image = My.Resources.j03
                 Await Task.Delay(80)
-                PictureBox1.Image = My.Resources.j23
+                picWheel.Image = My.Resources.j04
                 Await Task.Delay(85)
-                PictureBox1.Image = My.Resources.j24
+                picWheel.Image = My.Resources.j05
                 Await Task.Delay(90)
-                PictureBox1.Image = My.Resources.j25
+                picWheel.Image = My.Resources.j06
                 Await Task.Delay(95)
-
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j07
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j02
+                picWheel.Image = My.Resources.j08
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j03
+                picWheel.Image = My.Resources.j09
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j04
+                picWheel.Image = My.Resources.j10
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j05
+                picWheel.Image = My.Resources.j11
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j07
+                picWheel.Image = My.Resources.j12
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j11
-
+                picWheel.Image = My.Resources.j13
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j12
-
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j14
+                picWheel.Image = My.Resources.j14
                 MsgBox("You lose a turn!")
             Case intRand = 15
 
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(60)
+
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j02
                 Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j11
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j12
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j22
+                picWheel.Image = My.Resources.j03
                 Await Task.Delay(75)
-                PictureBox1.Image = My.Resources.j23
+                picWheel.Image = My.Resources.j04
                 Await Task.Delay(80)
-                PictureBox1.Image = My.Resources.j24
+                picWheel.Image = My.Resources.j05
                 Await Task.Delay(85)
-                PictureBox1.Image = My.Resources.j25
+                picWheel.Image = My.Resources.j06
                 Await Task.Delay(90)
-
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j07
                 Await Task.Delay(95)
-                PictureBox1.Image = My.Resources.j02
+                picWheel.Image = My.Resources.j08
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j03
+                picWheel.Image = My.Resources.j09
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j04
+                picWheel.Image = My.Resources.j10
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j05
+                picWheel.Image = My.Resources.j11
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j06
+                picWheel.Image = My.Resources.j12
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j08
+                picWheel.Image = My.Resources.j13
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j11
-
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j12
-
+                picWheel.Image = My.Resources.j14
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j15
+                picWheel.Image = My.Resources.j15
 
                 MsgBox("BANKRUPT!")
             Case intRand = 16
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(55)
+
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j03
                 Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j11
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j12
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j23
+                picWheel.Image = My.Resources.j04
                 Await Task.Delay(75)
-                PictureBox1.Image = My.Resources.j24
+                picWheel.Image = My.Resources.j05
                 Await Task.Delay(80)
-                PictureBox1.Image = My.Resources.j25
+                picWheel.Image = My.Resources.j06
                 Await Task.Delay(85)
-
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j07
                 Await Task.Delay(90)
-                PictureBox1.Image = My.Resources.j02
+                picWheel.Image = My.Resources.j08
                 Await Task.Delay(95)
-                PictureBox1.Image = My.Resources.j03
+                picWheel.Image = My.Resources.j09
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j04
+                picWheel.Image = My.Resources.j10
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j05
+                picWheel.Image = My.Resources.j11
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j06
+                picWheel.Image = My.Resources.j12
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j07
+                picWheel.Image = My.Resources.j13
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j09
+                picWheel.Image = My.Resources.j14
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j11
-
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j12
-
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j13
+                picWheel.Image = My.Resources.j15
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j16
+                picWheel.Image = My.Resources.j16
                 MsgBox("You pulled : 5,000!")
             Case intRand = 17
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(50)
+
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j04
                 Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j11
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j12
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j24
+                picWheel.Image = My.Resources.j05
                 Await Task.Delay(75)
-                PictureBox1.Image = My.Resources.j25
+                picWheel.Image = My.Resources.j06
                 Await Task.Delay(80)
-
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j07
                 Await Task.Delay(85)
-                PictureBox1.Image = My.Resources.j02
+                picWheel.Image = My.Resources.j08
                 Await Task.Delay(90)
-                PictureBox1.Image = My.Resources.j03
+                picWheel.Image = My.Resources.j09
                 Await Task.Delay(95)
-                PictureBox1.Image = My.Resources.j04
+                picWheel.Image = My.Resources.j10
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j05
+                picWheel.Image = My.Resources.j11
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j06
+                picWheel.Image = My.Resources.j12
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j07
+                picWheel.Image = My.Resources.j13
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j08
+                picWheel.Image = My.Resources.j14
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j10
+                picWheel.Image = My.Resources.j15
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j11
-
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j12
-
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j14
+                picWheel.Image = My.Resources.j16
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j17
+                picWheel.Image = My.Resources.j17
                 MsgBox("You pulled : 2,000!")
             Case intRand = 18
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(45)
+
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j05
                 Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j11
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j12
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j25
+                picWheel.Image = My.Resources.j06
                 Await Task.Delay(75)
-
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j07
                 Await Task.Delay(80)
-                PictureBox1.Image = My.Resources.j02
+                picWheel.Image = My.Resources.j08
                 Await Task.Delay(85)
-                PictureBox1.Image = My.Resources.j03
+                picWheel.Image = My.Resources.j09
                 Await Task.Delay(90)
-                PictureBox1.Image = My.Resources.j04
+                picWheel.Image = My.Resources.j10
                 Await Task.Delay(95)
-                PictureBox1.Image = My.Resources.j05
+                picWheel.Image = My.Resources.j11
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j06
+                picWheel.Image = My.Resources.j12
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j07
+                picWheel.Image = My.Resources.j13
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j08
+                picWheel.Image = My.Resources.j14
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j09
+                picWheel.Image = My.Resources.j15
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j11
-
+                picWheel.Image = My.Resources.j16
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j12
-
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j15
+                picWheel.Image = My.Resources.j17
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j18
+                picWheel.Image = My.Resources.j18
                 MsgBox("You pulled : 1,000!")
             Case intRand = 19
-                PictureBox1.Image = My.Resources.j01
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j11
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j12
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j25
-                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(40)
 
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j07
                 Await Task.Delay(75)
-                PictureBox1.Image = My.Resources.j02
+                picWheel.Image = My.Resources.j08
                 Await Task.Delay(80)
-                PictureBox1.Image = My.Resources.j03
+                picWheel.Image = My.Resources.j09
                 Await Task.Delay(85)
-                PictureBox1.Image = My.Resources.j04
+                picWheel.Image = My.Resources.j10
                 Await Task.Delay(90)
-                PictureBox1.Image = My.Resources.j05
+                picWheel.Image = My.Resources.j11
                 Await Task.Delay(95)
-                PictureBox1.Image = My.Resources.j06
+                picWheel.Image = My.Resources.j12
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j07
+                picWheel.Image = My.Resources.j13
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j08
+                picWheel.Image = My.Resources.j14
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j09
+                picWheel.Image = My.Resources.j15
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j10
+                picWheel.Image = My.Resources.j16
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j11
-
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j12
-
+                picWheel.Image = My.Resources.j17
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j16
+                picWheel.Image = My.Resources.j18
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j19
+                picWheel.Image = My.Resources.j19
                 MsgBox("You pulled : 1,000!")
             Case intRand = 20
-                PictureBox1.Image = My.Resources.j01
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j11
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j12
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j25
-                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(35)
 
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j07
                 Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
+                picWheel.Image = My.Resources.j08
                 Await Task.Delay(75)
-                PictureBox1.Image = My.Resources.j03
+                picWheel.Image = My.Resources.j09
                 Await Task.Delay(80)
-                PictureBox1.Image = My.Resources.j04
+                picWheel.Image = My.Resources.j10
                 Await Task.Delay(85)
-                PictureBox1.Image = My.Resources.j05
+                picWheel.Image = My.Resources.j11
                 Await Task.Delay(90)
-                PictureBox1.Image = My.Resources.j06
+                picWheel.Image = My.Resources.j12
                 Await Task.Delay(95)
-                PictureBox1.Image = My.Resources.j07
+                picWheel.Image = My.Resources.j13
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j08
+                picWheel.Image = My.Resources.j14
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j09
+                picWheel.Image = My.Resources.j15
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j10
+                picWheel.Image = My.Resources.j16
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j11
-
+                picWheel.Image = My.Resources.j17
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j12
-
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j13
+                picWheel.Image = My.Resources.j18
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j17
+                picWheel.Image = My.Resources.j19
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j20
+                picWheel.Image = My.Resources.j20
                 MsgBox("You pulled : 2,000!")
             Case intRand = 21
 
-                PictureBox1.Image = My.Resources.j01
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j11
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j12
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j25
-                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(30)
 
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j08
                 Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
+                picWheel.Image = My.Resources.j09
                 Await Task.Delay(75)
-                PictureBox1.Image = My.Resources.j05
+                picWheel.Image = My.Resources.j10
                 Await Task.Delay(80)
-                PictureBox1.Image = My.Resources.j06
+                picWheel.Image = My.Resources.j11
                 Await Task.Delay(85)
-                PictureBox1.Image = My.Resources.j07
+                picWheel.Image = My.Resources.j12
                 Await Task.Delay(90)
-                PictureBox1.Image = My.Resources.j08
+                picWheel.Image = My.Resources.j13
                 Await Task.Delay(95)
-                PictureBox1.Image = My.Resources.j09
+                picWheel.Image = My.Resources.j14
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j10
+                picWheel.Image = My.Resources.j15
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j11
-
+                picWheel.Image = My.Resources.j16
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j12
-
+                picWheel.Image = My.Resources.j17
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j13
+                picWheel.Image = My.Resources.j18
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j15
+                picWheel.Image = My.Resources.j19
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j18
+                picWheel.Image = My.Resources.j20
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j21
+                picWheel.Image = My.Resources.j21
                 MsgBox("You pulled : 5,000!")
             Case intRand = 22
-                PictureBox1.Image = My.Resources.j01
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j11
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j12
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j25
-                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(25)
 
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j09
                 Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
+                picWheel.Image = My.Resources.j10
                 Await Task.Delay(75)
-                PictureBox1.Image = My.Resources.j05
+                picWheel.Image = My.Resources.j11
                 Await Task.Delay(80)
-                PictureBox1.Image = My.Resources.j06
+                picWheel.Image = My.Resources.j12
                 Await Task.Delay(85)
-                PictureBox1.Image = My.Resources.j07
+                picWheel.Image = My.Resources.j13
                 Await Task.Delay(90)
-                PictureBox1.Image = My.Resources.j08
+                picWheel.Image = My.Resources.j14
                 Await Task.Delay(95)
-                PictureBox1.Image = My.Resources.j09
+                picWheel.Image = My.Resources.j15
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j10
+                picWheel.Image = My.Resources.j16
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j11
-
+                picWheel.Image = My.Resources.j17
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j12
-
+                picWheel.Image = My.Resources.j18
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j13
+                picWheel.Image = My.Resources.j19
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j15
+                picWheel.Image = My.Resources.j20
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j19
+                picWheel.Image = My.Resources.j21
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j22
+                picWheel.Image = My.Resources.j22
                 MsgBox("You pulled : 2,000!")
             Case intRand = 23
 
-                PictureBox1.Image = My.Resources.j01
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j11
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j12
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j25
-                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(20)
 
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j10
                 Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
+                picWheel.Image = My.Resources.j11
                 Await Task.Delay(75)
-                PictureBox1.Image = My.Resources.j06
+                picWheel.Image = My.Resources.j12
                 Await Task.Delay(80)
-                PictureBox1.Image = My.Resources.j07
+                picWheel.Image = My.Resources.j13
                 Await Task.Delay(85)
-                PictureBox1.Image = My.Resources.j08
+                picWheel.Image = My.Resources.j14
                 Await Task.Delay(90)
-                PictureBox1.Image = My.Resources.j09
+                picWheel.Image = My.Resources.j15
                 Await Task.Delay(95)
-                PictureBox1.Image = My.Resources.j10
+                picWheel.Image = My.Resources.j16
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j11
-
+                picWheel.Image = My.Resources.j17
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j12
-
+                picWheel.Image = My.Resources.j18
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j13
+                picWheel.Image = My.Resources.j19
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j14
+                picWheel.Image = My.Resources.j20
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j16
+                picWheel.Image = My.Resources.j21
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j20
+                picWheel.Image = My.Resources.j22
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j23
+                picWheel.Image = My.Resources.j23
                 MsgBox("You pulled : 1,000!")
             Case intRand = 24
-                PictureBox1.Image = My.Resources.j01
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j11
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j12
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j25
-                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(10)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(15)
 
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j10
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j11
                 Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j06
+                picWheel.Image = My.Resources.j12
                 Await Task.Delay(75)
-                PictureBox1.Image = My.Resources.j07
+                picWheel.Image = My.Resources.j13
                 Await Task.Delay(80)
-                PictureBox1.Image = My.Resources.j08
+                picWheel.Image = My.Resources.j14
                 Await Task.Delay(85)
-                PictureBox1.Image = My.Resources.j09
+                picWheel.Image = My.Resources.j15
                 Await Task.Delay(90)
-                PictureBox1.Image = My.Resources.j10
+                picWheel.Image = My.Resources.j16
                 Await Task.Delay(95)
-                PictureBox1.Image = My.Resources.j11
-
+                picWheel.Image = My.Resources.j17
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j12
-
+                picWheel.Image = My.Resources.j18
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j13
+                picWheel.Image = My.Resources.j19
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j14
+                picWheel.Image = My.Resources.j20
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j15
+                picWheel.Image = My.Resources.j21
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j17
+                picWheel.Image = My.Resources.j22
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j21
+                picWheel.Image = My.Resources.j23
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j24
+                picWheel.Image = My.Resources.j24
                 MsgBox("You lose a turn!")
             Case intRand = 25
 
-                PictureBox1.Image = My.Resources.j01
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j07
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j08
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j09
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j10
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j11
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j12
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j13
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j14
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j15
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j16
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j18
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j22
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j25
-                Await Task.Delay(70)
+                picWheel.Image = My.Resources.j13
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j14
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j15
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j16
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j17
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j18
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j19
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j20
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j21
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j22
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j23
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j24
+                Await Task.Delay(1)
+                picWheel.Image = My.Resources.j25
+                Await Task.Delay(10)
 
-                PictureBox1.Image = My.Resources.j01
+                picWheel.Image = My.Resources.j01
+                Await Task.Delay(15)
+                picWheel.Image = My.Resources.j02
+                Await Task.Delay(20)
+                picWheel.Image = My.Resources.j03
+                Await Task.Delay(25)
+                picWheel.Image = My.Resources.j04
+                Await Task.Delay(30)
+                picWheel.Image = My.Resources.j05
+                Await Task.Delay(35)
+                picWheel.Image = My.Resources.j06
+                Await Task.Delay(40)
+                picWheel.Image = My.Resources.j07
+                Await Task.Delay(45)
+                picWheel.Image = My.Resources.j08
+                Await Task.Delay(50)
+                picWheel.Image = My.Resources.j09
+                Await Task.Delay(55)
+                picWheel.Image = My.Resources.j10
+                Await Task.Delay(60)
+                picWheel.Image = My.Resources.j11
+                Await Task.Delay(65)
+                picWheel.Image = My.Resources.j12
                 Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j02
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j03
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j04
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j05
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j06
-                Await Task.Delay(70)
-                PictureBox1.Image = My.Resources.j07
+                picWheel.Image = My.Resources.j13
                 Await Task.Delay(75)
-                PictureBox1.Image = My.Resources.j08
+                picWheel.Image = My.Resources.j14
                 Await Task.Delay(80)
-                PictureBox1.Image = My.Resources.j09
+                picWheel.Image = My.Resources.j15
                 Await Task.Delay(85)
-                PictureBox1.Image = My.Resources.j10
+                picWheel.Image = My.Resources.j16
                 Await Task.Delay(90)
-                PictureBox1.Image = My.Resources.j11
-
+                picWheel.Image = My.Resources.j17
                 Await Task.Delay(95)
-                PictureBox1.Image = My.Resources.j12
-
+                picWheel.Image = My.Resources.j18
                 Await Task.Delay(100)
-                PictureBox1.Image = My.Resources.j13
+                picWheel.Image = My.Resources.j19
                 Await Task.Delay(125)
-                PictureBox1.Image = My.Resources.j14
+                picWheel.Image = My.Resources.j20
                 Await Task.Delay(150)
-                PictureBox1.Image = My.Resources.j15
+                picWheel.Image = My.Resources.j21
                 Await Task.Delay(175)
-                PictureBox1.Image = My.Resources.j16
+                picWheel.Image = My.Resources.j22
                 Await Task.Delay(200)
-                PictureBox1.Image = My.Resources.j17
-                Await Task.Delay(225)
-                PictureBox1.Image = My.Resources.j18
+                picWheel.Image = My.Resources.j23
                 Await Task.Delay(250)
-                PictureBox1.Image = My.Resources.j19
-                Await Task.Delay(275)
-                PictureBox1.Image = My.Resources.j20
-                Await Task.Delay(300)
-                PictureBox1.Image = My.Resources.j21
-                Await Task.Delay(325)
-                PictureBox1.Image = My.Resources.j22
+                picWheel.Image = My.Resources.j24
                 Await Task.Delay(350)
-                PictureBox1.Image = My.Resources.j23
-                Await Task.Delay(375)
-                PictureBox1.Image = My.Resources.j24
-                Await Task.Delay(400)
-                PictureBox1.Image = My.Resources.j25
+                picWheel.Image = My.Resources.j25
 
                 MsgBox("You pulled : 5,000!")
         End Select
+
+        frmGuess.Show()
+        Me.Hide()
     End Sub
 
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        PictureBox1.Image = My.Resources.j00
+        picWheel.Image = My.Resources.j00
         'poo
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnGenerate.Click
 
 
 
-        Dim file1 As OpenFileDialog = New OpenFileDialog()
-
-        Dim inFile As IO.StreamReader
-
-        Dim strLine As String
-        Dim strName As String
-
-        file1.Title = "Open File Dialog"
-        file1.InitialDirectory = "C:\"
-        file1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*"
-        file1.FilterIndex = 1
-        file1.RestoreDirectory = True
-
-        If file1.ShowDialog() = DialogResult.OK Then
-            strFile1Name = file1.FileName
-            'outFile = IO.File.CreateText(strFile1Name)
-
-        End If
-        If IO.File.Exists(strFile1Name) Then
-            Dim intCount As Integer = 0
-
-            inFile = IO.File.OpenText(strFile1Name)
-            Do Until inFile.Peek = -1
-                strLine = inFile.ReadLine
-
-
-            Loop
-
-
-
-
-
-
-            inFile.Close()
-
-        End If
-        Dim sr As New System.IO.StreamReader(strFile1Name)
-        Dim sr2 As New System.IO.StreamReader(strFile1Name)
-        Dim index As Integer = 0
-        Dim currentline As Integer = 0
-        Dim random As Integer = 0
-        Label1.Text = ""
-        Do Until sr.EndOfStream = True
-            sr.ReadLine()
-            index += 1
-        Loop
-
-        Randomize()
-        random = Rnd() * index
-        Do Until currentline = random
-            TextBox1.Text = sr2.ReadLine
-            currentline += 1
-        Loop
-
-        Dim intLength As Integer
-        intLength = TextBox1.Text.Length
-
-        For intx As Integer = 1 To intLength
-            Label1.Text += "_ "
-        Next intx
-    End Sub
-
-    Private Sub btnA_Click(sender As Object, e As EventArgs) Handles btnA.Click, btnB.Click, btnC.Click, btnD.Click, btnE.Click, btnF.Click, btnG.Click, btnH.Click, btnI.Click, btnJ.Click, btnK.Click, btnL.Click, btnM.Click, btnN.Click, btnO.Click, btnP.Click, btnQ.Click, btnR.Click, btnS.Click, btnT.Click, btnU.Click, btnV.Click, btnW.Click, btnX.Click, btnY.Click, btnZ.Click
-
-    End Sub
 End Class
