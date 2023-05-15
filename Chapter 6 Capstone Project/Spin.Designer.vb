@@ -22,30 +22,40 @@ Partial Class frmSpin
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.btnSpin = New System.Windows.Forms.Button()
+        Me.lblAmount = New System.Windows.Forms.Label()
         Me.picWheel = New System.Windows.Forms.PictureBox()
+        Me.btnSpin = New System.Windows.Forms.Button()
         CType(Me.picWheel, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'btnSpin
+        'lblAmount
         '
-        Me.btnSpin.Location = New System.Drawing.Point(705, 267)
-        Me.btnSpin.Name = "btnSpin"
-        Me.btnSpin.Size = New System.Drawing.Size(75, 23)
-        Me.btnSpin.TabIndex = 0
-        Me.btnSpin.Text = "&Spin!"
-        Me.btnSpin.UseVisualStyleBackColor = True
+        Me.lblAmount.AutoSize = True
+        Me.lblAmount.Location = New System.Drawing.Point(770, 167)
+        Me.lblAmount.Name = "lblAmount"
+        Me.lblAmount.Size = New System.Drawing.Size(0, 13)
+        Me.lblAmount.TabIndex = 5
         '
         'picWheel
         '
         Me.picWheel.Image = Global.Chapter_6_Capstone_Project.My.Resources.Resources.j00
-        Me.picWheel.Location = New System.Drawing.Point(31, 25)
+        Me.picWheel.Location = New System.Drawing.Point(99, 37)
         Me.picWheel.Margin = New System.Windows.Forms.Padding(2)
         Me.picWheel.Name = "picWheel"
         Me.picWheel.Size = New System.Drawing.Size(644, 512)
         Me.picWheel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picWheel.TabIndex = 1
+        Me.picWheel.TabIndex = 4
         Me.picWheel.TabStop = False
+        '
+        'btnSpin
+        '
+        Me.btnSpin.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.btnSpin.Location = New System.Drawing.Point(325, 579)
+        Me.btnSpin.Name = "btnSpin"
+        Me.btnSpin.Size = New System.Drawing.Size(188, 45)
+        Me.btnSpin.TabIndex = 3
+        Me.btnSpin.Text = "&Spin!"
+        Me.btnSpin.UseVisualStyleBackColor = True
         '
         'frmSpin
         '
@@ -53,16 +63,19 @@ Partial Class frmSpin
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.ClientSize = New System.Drawing.Size(813, 569)
+        Me.ClientSize = New System.Drawing.Size(844, 660)
+        Me.Controls.Add(Me.lblAmount)
         Me.Controls.Add(Me.picWheel)
         Me.Controls.Add(Me.btnSpin)
         Me.Name = "frmSpin"
         Me.Text = "???"
         CType(Me.picWheel, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents btnSpin As Button
+    Friend WithEvents lblAmount As Label
     Friend WithEvents picWheel As PictureBox
+    Friend WithEvents btnSpin As Button
 End Class

@@ -11,43 +11,80 @@ Option Explicit On
 
 Public Class frmGuess
     Private strFile1Name As String
-
+    Private intPoints1 As Integer
+    Private intPoints2 As Integer
+    Private intTurn As Integer = 2
     Function GuessLetter(ByVal strLetter As String) As Boolean
-
+        Dim intAmount As Integer
+        Dim intTimes As Integer
+        Dim strAmount As String
         Dim strWord As String
         Dim boo As Boolean
         Dim strResult As String
         strWord = txtWord.Text.Trim.ToUpper
 
 
+        strAmount = frmSpin.lblAmount.Text
+        Integer.TryParse(strAmount, intAmount)
 
+
+
+        lblPoints1.Text = intPoints1.ToString()
+        lblPoints2.Text = intPoints2.ToString()
+        txtTurn.Text = intTurn.ToString()
         strResult = lblWord.Text
         If strWord.Contains(strLetter) Then
-            'Replace the hyphen(s) in strResult.
+
             For intIndex As Integer = 0 To strWord.Length - 1
                 If strWord(intIndex) = strLetter Then
-                    strResult = strResult.Remove(intIndex, 1)
-                    strResult = strResult.Insert(intIndex, strLetter)
+                    strResult = strResult.Remove(intIndex * 2, 1)
+                    strResult = strResult.Insert(intIndex * 2, strLetter)
+                    intTimes += 1
                 End If
             Next intIndex
-            'Display the contents of strResult.
+
             lblWord.Text = strResult
-            'Determine whether strResult contains any hyphens.
+
             boo = True
             If strResult.Contains("_") = False Then
-                MessageBox.Show("You guessed it: " & strWord, "Guess the
-Word game", MessageBoxButtons.OK,
+                MessageBox.Show("You guessed it: " & strWord, "Spin the Wheel", MessageBoxButtons.OK,
                 MessageBoxIcon.Information)
 
 
             End If
+            If intAmount = 1000 OrElse intAmount = 5000 OrElse intAmount = 10000 OrElse intAmount = 2000 Then
+                If intTurn Mod 2 = 0 Then
+                    intPoints1 += intAmount * intTimes
 
+
+                Else
+                    intPoints2 += intAmount * intTimes
+
+                End If
+                lblPoints1.Text = intPoints1.ToString()
+                lblPoints2.Text = intPoints2.ToString()
+                txtTurn.Text = intTurn.ToString()
+            End If
         Else
-            MessageBox.Show("Try again!", "Guess the Word Game",
-            MessageBoxButtons.OK, MessageBoxIcon.Information)
+            If intAmount = 1000 OrElse intAmount = 5000 OrElse intAmount = 10000 OrElse intAmount = 2000 Then
+                If intTurn Mod 2 = 0 Then
+                    intTurn += 1
+
+
+                Else
+                    intTurn += 1
+
+                End If
+                lblPoints1.Text = intPoints1.ToString()
+                lblPoints2.Text = intPoints2.ToString()
+                txtTurn.Text = intTurn.ToString()
+            End If
+            MessageBox.Show("Try again!", "Spin the Wheel",
+        MessageBoxButtons.OK, MessageBoxIcon.Information)
             boo = False
+
         End If
-        'txtLetter.Text = String.Empty
+
 
 
 
@@ -55,6 +92,59 @@ Word game", MessageBoxButtons.OK,
     End Function
     Private Sub btnGenerate_Click(sender As Object, e As EventArgs) Handles btnGenerate.Click
         'btnGenerate.Enabled = False
+        btnA.Enabled = True
+        btnB.Enabled = True
+        btnC.Enabled = True
+        btnD.Enabled = True
+        btnE.Enabled = True
+        btnF.Enabled = True
+        btnG.Enabled = True
+        btnH.Enabled = True
+        btnI.Enabled = True
+        btnJ.Enabled = True
+        btnK.Enabled = True
+        btnL.Enabled = True
+        btnM.Enabled = True
+        btnN.Enabled = True
+        btnO.Enabled = True
+        btnP.Enabled = True
+        btnQ.Enabled = True
+        btnR.Enabled = True
+        btnS.Enabled = True
+        btnT.Enabled = True
+        btnU.Enabled = True
+        btnV.Enabled = True
+        btnW.Enabled = True
+        btnX.Enabled = True
+        btnY.Enabled = True
+        btnZ.Enabled = True
+
+        btnA.BackColor = Color.Gainsboro
+        btnB.BackColor = Color.Gainsboro
+        btnC.BackColor = Color.Gainsboro
+        btnD.BackColor = Color.Gainsboro
+        btnE.BackColor = Color.Gainsboro
+        btnF.BackColor = Color.Gainsboro
+        btnG.BackColor = Color.Gainsboro
+        btnH.BackColor = Color.Gainsboro
+        btnI.BackColor = Color.Gainsboro
+        btnJ.BackColor = Color.Gainsboro
+        btnK.BackColor = Color.Gainsboro
+        btnL.BackColor = Color.Gainsboro
+        btnM.BackColor = Color.Gainsboro
+        btnN.BackColor = Color.Gainsboro
+        btnO.BackColor = Color.Gainsboro
+        btnP.BackColor = Color.Gainsboro
+        btnQ.BackColor = Color.Gainsboro
+        btnR.BackColor = Color.Gainsboro
+        btnS.BackColor = Color.Gainsboro
+        btnT.BackColor = Color.Gainsboro
+        btnU.BackColor = Color.Gainsboro
+        btnV.BackColor = Color.Gainsboro
+        btnW.BackColor = Color.Gainsboro
+        btnX.BackColor = Color.Gainsboro
+        btnY.BackColor = Color.Gainsboro
+        btnZ.BackColor = Color.Gainsboro
         Dim randNum As New Random
 
 
@@ -102,20 +192,32 @@ Word game", MessageBoxButtons.OK,
 
 
 
+
         Dim strWord As String
-        Dim boo As Boolean
+
         Dim strResult As String
         strWord = txtWord.Text.Trim.ToUpper
 
 
 
+
         strResult = lblWord.Text
-        For intIndex As Integer = 0 To strWord.Length - 1
-            If strWord(intIndex) = " " Then
-                strResult = strResult.Remove(intIndex, 1)
-                strResult = strResult.Insert(intIndex, " ")
-            End If
-        Next intIndex
+        If strWord.Contains(" ") Then
+
+            For intIndex As Integer = 0 To strWord.Length - 1
+                If strWord(intIndex) = " " Then
+                    strResult = strResult.Remove(intIndex * 2, 1)
+                    strResult = strResult.Insert(intIndex * 2, " ")
+                End If
+
+            Next intIndex
+
+            lblWord.Text = strResult
+
+
+
+
+        End If
     End Sub
 
 
@@ -132,100 +234,9 @@ Word game", MessageBoxButtons.OK,
 
         If file1.ShowDialog() = DialogResult.OK Then
             strFile1Name = file1.FileName
-            'outFile = IO.File.CreateText(strFile1Name)
+
 
         End If
-    End Sub
-
-    Private Async Sub btnQ_Click(sender As Object, e As EventArgs) Handles btnQ.Click
-        btnQ.Enabled = False
-        Dim strLetter As String
-        Dim boo As Boolean
-        strLetter = "Q"
-        boo = GuessLetter(strLetter)
-        If boo = True Then
-
-            btnQ.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
-            Me.Hide()
-        Else
-            btnQ.BackColor = Color.Red
-            Await Task.Delay(800)
-            frmSpin.Show()
-            Me.Hide()
-        End If
-
-
-
-    End Sub
-
-    Private Async Sub btnW_Click(sender As Object, e As EventArgs) Handles btnW.Click
-        btnW.Enabled = False
-        Dim strLetter As String
-        Dim boo As Boolean
-        strLetter = "W"
-        boo = GuessLetter(strLetter)
-        If boo = True Then
-
-            btnW.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
-            Me.Hide()
-        Else
-            btnW.BackColor = Color.Red
-            Await Task.Delay(800)
-            frmSpin.Show()
-            Me.Hide()
-        End If
-
-
-    End Sub
-
-    Private Async Sub btnE_Click(sender As Object, e As EventArgs) Handles btnE.Click
-        btnE.Enabled = False
-        Dim strLetter As String
-        Dim boo As Boolean
-        strLetter = "E"
-        boo = GuessLetter(strLetter)
-        If boo = True Then
-
-            btnE.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
-            Me.Hide()
-        Else
-            btnE.BackColor = Color.Red
-            Await Task.Delay(800)
-            frmSpin.Show()
-            Me.Hide()
-        End If
-
-
-
-    End Sub
-
-    Private Async Sub btnR_Click(sender As Object, e As EventArgs) Handles btnR.Click
-        btnR.Enabled = False
-        Dim strLetter As String
-        Dim boo As Boolean
-        strLetter = "R"
-        boo = GuessLetter(strLetter)
-        If boo = True Then
-
-            btnR.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
-            Me.Hide()
-        Else
-            btnR.BackColor = Color.Red
-            Await Task.Delay(800)
-            frmSpin.Show()
-            Me.Hide()
-        End If
-
-
-
     End Sub
 
     Private Async Sub btnT_Click(sender As Object, e As EventArgs) Handles btnT.Click
@@ -237,17 +248,102 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnT.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnT.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
 
     End Sub
+
+    Private Async Sub btnQ_Click(sender As Object, e As EventArgs) Handles btnQ.Click
+        btnQ.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "Q"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnQ.BackColor = Color.Green
+            Await Task.Delay(1000)
+            frmPop.Show()
+            Me.Hide()
+        Else
+            btnQ.BackColor = Color.Red
+            Await Task.Delay(1000)
+            frmSpin.Show()
+            Me.Hide()
+        End If
+
+
+    End Sub
+    Private Async Sub btnR_Click(sender As Object, e As EventArgs) Handles btnR.Click
+        btnR.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "R"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnR.BackColor = Color.Green
+            Await Task.Delay(1000)
+            frmPop.Show()
+            Me.Hide()
+        Else
+            btnR.BackColor = Color.Red
+            Await Task.Delay(1000)
+            frmSpin.Show()
+            Me.Hide()
+        End If
+
+    End Sub
+
+
+    Private Async Sub btnW_Click(sender As Object, e As EventArgs) Handles btnW.Click
+        btnW.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "W"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnW.BackColor = Color.Green
+            Await Task.Delay(1000)
+            frmPop.Show()
+            Me.Hide()
+        Else
+            btnW.BackColor = Color.Red
+            Await Task.Delay(1000)
+            frmSpin.Show()
+            Me.Hide()
+        End If
+
+    End Sub
+    Private Async Sub btnE_Click(sender As Object, e As EventArgs) Handles btnE.Click
+        btnE.Enabled = False
+        Dim strLetter As String
+        Dim boo As Boolean
+        strLetter = "E"
+        boo = GuessLetter(strLetter)
+        If boo = True Then
+
+            btnE.BackColor = Color.Green
+            Await Task.Delay(1000)
+            frmPop.Show()
+            Me.Hide()
+        Else
+            btnE.BackColor = Color.Red
+            Await Task.Delay(1000)
+            frmSpin.Show()
+            Me.Hide()
+        End If
+
+    End Sub
+
 
     Private Async Sub btnY_Click(sender As Object, e As EventArgs) Handles btnY.Click
         btnY.Enabled = False
@@ -258,12 +354,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnY.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnY.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -279,12 +375,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnU.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnU.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -300,12 +396,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnI.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnI.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -321,12 +417,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnO.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnO.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -342,12 +438,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnP.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnP.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -363,12 +459,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnA.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnA.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -384,12 +480,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnS.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnS.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -405,12 +501,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnD.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnD.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -426,12 +522,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnF.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnF.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -447,12 +543,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnG.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnG.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -468,12 +564,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnH.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnH.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -489,12 +585,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnJ.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnJ.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -510,12 +606,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnK.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnK.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1 - 0)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -531,12 +627,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnL.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnL.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -552,12 +648,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnZ.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnZ.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -573,12 +669,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnX.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnX.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -594,12 +690,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnC.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnC.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -615,12 +711,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnV.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnV.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -636,12 +732,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnB.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnB.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -657,12 +753,12 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnN.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
         Else
             btnN.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -678,13 +774,13 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnM.BackColor = Color.Green
-            Await Task.Delay(800)
-            SpinAgain.Show()
+            Await Task.Delay(1000)
+            frmPop.Show()
             Me.Hide()
 
         Else
             btnM.BackColor = Color.Red
-            Await Task.Delay(800)
+            Await Task.Delay(1000)
             frmSpin.Show()
             Me.Hide()
         End If
@@ -696,9 +792,16 @@ Word game", MessageBoxButtons.OK,
 
     End Sub
 
-    'Private Sub btnSpin_Click(sender As Object, e As EventArgs) Handles btnSpin.Click
-    '    frmSpin.Show()
-    ''    Me.Hide()
+    Private Sub frmGuess_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        lblName1.Text = frmName.txtOne.Text
+        lblName2.Text = frmName.txtTwo.Text
 
-    'End Sub
+
+
+
+    End Sub
+
+    Private Sub btnShow_Click(sender As Object, e As EventArgs) Handles btnShow.Click
+        MsgBox(txtWord.Text.ToString())
+    End Sub
 End Class

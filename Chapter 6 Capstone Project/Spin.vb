@@ -12,13 +12,27 @@ Option Explicit On
 Public Class frmSpin
 
 
+
     Private strFile1Name As String
 
     Private Async Sub btnSpin_Click(sender As Object, e As EventArgs) Handles btnSpin.Click
 
+        Dim intTurn As Integer
 
+        Dim strOne As String
+        Dim strTwo As String
+        strOne = frmName.txtOne.Text
+        strTwo = frmName.txtOne.Text
+        Integer.TryParse(frmGuess.txtTurn.Text, intTurn)
+        Me.Text = "Spin the Wheel, " + strOne + "!"
+        If intTurn Mod 2 = 0 Then
+            Me.Text = "Spin the Wheel, " + strOne + "!"
 
+        Else
+            Me.Text = "Spin the Wheel, " + strTwo + "!"
+        End If
 
+        btnSpin.Enabled = False
 
         Dim randGen As New Random
         Dim intRand As Integer
@@ -1809,16 +1823,55 @@ Public Class frmSpin
                 MsgBox("You pulled : 5,000!")
         End Select
 
+
+        If intRand = 1 OrElse intRand = 3 OrElse intRand = 7 OrElse intRand = 17 OrElse intRand = 20 OrElse intRand = 22 Then
+            lblAmount.Text = "2000"
+        End If
+
+        If intRand = 2 OrElse intRand = 4 OrElse intRand = 6 OrElse intRand = 8 OrElse intRand = 10 OrElse intRand = 11 OrElse intRand = 12 OrElse intRand = 18 OrElse intRand = 19 OrElse intRand = 23 Then
+            lblAmount.Text = "1000"
+        End If
+
+        If intRand = 16 OrElse intRand = 21 OrElse intRand = 25 Then
+            lblAmount.Text = "5000"
+        End If
+        If intRand = 13 Then
+            lblAmount.Text = "10000"
+        End If
+
+        If intRand = 15 OrElse intRand = 5 Then
+            lblAmount.Text = "0"
+        End If
+
+
+        If intRand = 14 OrElse intRand = 24 OrElse intRand = 9 Then
+            lblAmount.Text = "69"
+        End If
+        Await Task.Delay(500)
+
         frmGuess.Show()
+        btnSpin.Enabled = True
+        picWheel.Image = My.Resources.j00
         Me.Hide()
     End Sub
 
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         picWheel.Image = My.Resources.j00
+
+        Dim intTurn As Integer
+        Dim randGen As New Random
+        Dim strOne As String
+        Dim strTwo As String
+        strOne = frmName.txtOne.Text
+        strTwo = frmName.txtOne.Text
+        Integer.TryParse(frmGuess.txtTurn.Text, intTurn)
+        Me.Text = "Spin the Wheel, " + strOne + "!"
+        If intTurn Mod 2 = 0 Then
+            Me.Text = "Spin the Wheel, " + strOne + "!"
+
+        Else
+            Me.Text = "Spin the Wheel, " + strTwo + "!"
+        End If
         'poo
     End Sub
-
-
-
-
 End Class

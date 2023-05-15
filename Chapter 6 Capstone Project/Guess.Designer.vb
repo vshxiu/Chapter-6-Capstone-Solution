@@ -22,6 +22,11 @@ Partial Class frmGuess
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.txtTurn = New System.Windows.Forms.TextBox()
+        Me.lblPoints2 = New System.Windows.Forms.Label()
+        Me.lblName2 = New System.Windows.Forms.Label()
+        Me.lblPoints1 = New System.Windows.Forms.Label()
+        Me.lblName1 = New System.Windows.Forms.Label()
         Me.txtWord = New System.Windows.Forms.TextBox()
         Me.gboGuess = New System.Windows.Forms.GroupBox()
         Me.btnA = New System.Windows.Forms.Button()
@@ -55,18 +60,70 @@ Partial Class frmGuess
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SelectToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.btnSpin = New System.Windows.Forms.Button()
-        Me.btnSolve = New System.Windows.Forms.Button()
+        Me.txtInput = New System.Windows.Forms.TextBox()
+        Me.btnGuess = New System.Windows.Forms.Button()
+        Me.btnShow = New System.Windows.Forms.Button()
         Me.gboGuess.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
+        'txtTurn
+        '
+        Me.txtTurn.Location = New System.Drawing.Point(619, 234)
+        Me.txtTurn.Name = "txtTurn"
+        Me.txtTurn.ReadOnly = True
+        Me.txtTurn.Size = New System.Drawing.Size(100, 20)
+        Me.txtTurn.TabIndex = 57
+        Me.txtTurn.Visible = False
+        '
+        'lblPoints2
+        '
+        Me.lblPoints2.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.lblPoints2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.lblPoints2.Location = New System.Drawing.Point(889, 73)
+        Me.lblPoints2.Name = "lblPoints2"
+        Me.lblPoints2.Size = New System.Drawing.Size(186, 37)
+        Me.lblPoints2.TabIndex = 56
+        Me.lblPoints2.Text = "0"
+        Me.lblPoints2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblName2
+        '
+        Me.lblName2.AutoSize = True
+        Me.lblName2.Location = New System.Drawing.Point(1027, 51)
+        Me.lblName2.Name = "lblName2"
+        Me.lblName2.Size = New System.Drawing.Size(48, 13)
+        Me.lblName2.TabIndex = 55
+        Me.lblName2.Text = "Player 2:"
+        '
+        'lblPoints1
+        '
+        Me.lblPoints1.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.lblPoints1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.lblPoints1.Location = New System.Drawing.Point(12, 73)
+        Me.lblPoints1.Name = "lblPoints1"
+        Me.lblPoints1.Size = New System.Drawing.Size(186, 37)
+        Me.lblPoints1.TabIndex = 54
+        Me.lblPoints1.Text = "0"
+        Me.lblPoints1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblName1
+        '
+        Me.lblName1.AutoSize = True
+        Me.lblName1.Location = New System.Drawing.Point(12, 51)
+        Me.lblName1.Name = "lblName1"
+        Me.lblName1.Size = New System.Drawing.Size(48, 13)
+        Me.lblName1.TabIndex = 53
+        Me.lblName1.Text = "Player 1:"
+        '
         'txtWord
         '
-        Me.txtWord.Location = New System.Drawing.Point(979, 63)
+        Me.txtWord.Location = New System.Drawing.Point(619, 208)
         Me.txtWord.Name = "txtWord"
+        Me.txtWord.ReadOnly = True
         Me.txtWord.Size = New System.Drawing.Size(100, 20)
-        Me.txtWord.TabIndex = 42
+        Me.txtWord.TabIndex = 52
+        Me.txtWord.Visible = False
         '
         'gboGuess
         '
@@ -96,10 +153,10 @@ Partial Class frmGuess
         Me.gboGuess.Controls.Add(Me.btnF)
         Me.gboGuess.Controls.Add(Me.btnG)
         Me.gboGuess.Controls.Add(Me.btnH)
-        Me.gboGuess.Location = New System.Drawing.Point(28, 240)
+        Me.gboGuess.Location = New System.Drawing.Point(33, 256)
         Me.gboGuess.Name = "gboGuess"
         Me.gboGuess.Size = New System.Drawing.Size(1023, 316)
-        Me.gboGuess.TabIndex = 40
+        Me.gboGuess.TabIndex = 50
         Me.gboGuess.TabStop = False
         Me.gboGuess.Text = "Guess a Letter!"
         '
@@ -367,20 +424,20 @@ Partial Class frmGuess
         '
         Me.lblWord.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.lblWord.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.lblWord.Location = New System.Drawing.Point(369, 29)
+        Me.lblWord.Location = New System.Drawing.Point(318, 45)
         Me.lblWord.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblWord.Name = "lblWord"
-        Me.lblWord.Size = New System.Drawing.Size(350, 86)
-        Me.lblWord.TabIndex = 39
+        Me.lblWord.Size = New System.Drawing.Size(445, 132)
+        Me.lblWord.TabIndex = 49
         Me.lblWord.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnGenerate
         '
-        Me.btnGenerate.Location = New System.Drawing.Point(955, 29)
+        Me.btnGenerate.Location = New System.Drawing.Point(483, 204)
         Me.btnGenerate.Margin = New System.Windows.Forms.Padding(2)
         Me.btnGenerate.Name = "btnGenerate"
         Me.btnGenerate.Size = New System.Drawing.Size(125, 27)
-        Me.btnGenerate.TabIndex = 38
+        Me.btnGenerate.TabIndex = 48
         Me.btnGenerate.Text = "&Generate your word!"
         Me.btnGenerate.UseVisualStyleBackColor = True
         '
@@ -390,7 +447,7 @@ Partial Class frmGuess
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1087, 24)
-        Me.MenuStrip1.TabIndex = 41
+        Me.MenuStrip1.TabIndex = 51
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'FileToolStripMenuItem
@@ -406,31 +463,47 @@ Partial Class frmGuess
         Me.SelectToolStripMenuItem.Size = New System.Drawing.Size(105, 22)
         Me.SelectToolStripMenuItem.Text = "Select"
         '
-        'btnSpin
+        'txtInput
         '
-        Me.btnSpin.Location = New System.Drawing.Point(1000, 92)
-        Me.btnSpin.Name = "btnSpin"
-        Me.btnSpin.Size = New System.Drawing.Size(75, 23)
-        Me.btnSpin.TabIndex = 43
-        Me.btnSpin.Text = "Spin again"
-        Me.btnSpin.UseVisualStyleBackColor = True
+        Me.txtInput.Location = New System.Drawing.Point(409, 195)
+        Me.txtInput.Name = "txtInput"
+        Me.txtInput.Size = New System.Drawing.Size(277, 20)
+        Me.txtInput.TabIndex = 58
+        Me.txtInput.Visible = False
         '
-        'btnSolve
+        'btnGuess
         '
-        Me.btnSolve.Location = New System.Drawing.Point(1001, 121)
-        Me.btnSolve.Name = "btnSolve"
-        Me.btnSolve.Size = New System.Drawing.Size(75, 23)
-        Me.btnSolve.TabIndex = 44
-        Me.btnSolve.Text = "Solve"
-        Me.btnSolve.UseVisualStyleBackColor = True
+        Me.btnGuess.Location = New System.Drawing.Point(524, 227)
+        Me.btnGuess.Name = "btnGuess"
+        Me.btnGuess.Size = New System.Drawing.Size(75, 23)
+        Me.btnGuess.TabIndex = 59
+        Me.btnGuess.Text = "G&uess"
+        Me.btnGuess.UseVisualStyleBackColor = True
+        Me.btnGuess.Visible = False
+        '
+        'btnShow
+        '
+        Me.btnShow.Location = New System.Drawing.Point(963, 154)
+        Me.btnShow.Name = "btnShow"
+        Me.btnShow.Size = New System.Drawing.Size(75, 23)
+        Me.btnShow.TabIndex = 60
+        Me.btnShow.Text = "&Show"
+        Me.btnShow.UseVisualStyleBackColor = True
         '
         'frmGuess
         '
+        Me.AcceptButton = Me.btnGenerate
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1087, 588)
-        Me.Controls.Add(Me.btnSolve)
-        Me.Controls.Add(Me.btnSpin)
+        Me.Controls.Add(Me.btnShow)
+        Me.Controls.Add(Me.btnGuess)
+        Me.Controls.Add(Me.txtInput)
+        Me.Controls.Add(Me.txtTurn)
+        Me.Controls.Add(Me.lblPoints2)
+        Me.Controls.Add(Me.lblName2)
+        Me.Controls.Add(Me.lblPoints1)
+        Me.Controls.Add(Me.lblName1)
         Me.Controls.Add(Me.txtWord)
         Me.Controls.Add(Me.gboGuess)
         Me.Controls.Add(Me.lblWord)
@@ -446,6 +519,11 @@ Partial Class frmGuess
 
     End Sub
 
+    Friend WithEvents txtTurn As TextBox
+    Friend WithEvents lblPoints2 As Label
+    Friend WithEvents lblName2 As Label
+    Friend WithEvents lblPoints1 As Label
+    Friend WithEvents lblName1 As Label
     Friend WithEvents txtWord As TextBox
     Friend WithEvents gboGuess As GroupBox
     Friend WithEvents btnA As Button
@@ -479,6 +557,7 @@ Partial Class frmGuess
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents FileToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SelectToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents btnSpin As Button
-    Friend WithEvents btnSolve As Button
+    Friend WithEvents txtInput As TextBox
+    Friend WithEvents btnGuess As Button
+    Friend WithEvents btnShow As Button
 End Class

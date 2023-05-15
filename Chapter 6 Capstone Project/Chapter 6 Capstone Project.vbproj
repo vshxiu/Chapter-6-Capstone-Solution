@@ -108,10 +108,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="SpinAgain.Designer.vb">
-      <DependentUpon>SpinAgain.vb</DependentUpon>
+    <Compile Include="Pop.Designer.vb">
+      <DependentUpon>Pop.vb</DependentUpon>
     </Compile>
-    <Compile Include="SpinAgain.vb">
+    <Compile Include="Pop.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -131,8 +131,8 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="SpinAgain.resx">
-      <DependentUpon>SpinAgain.vb</DependentUpon>
+    <EmbeddedResource Include="Pop.resx">
+      <DependentUpon>Pop.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
