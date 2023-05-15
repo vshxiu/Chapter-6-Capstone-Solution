@@ -18,7 +18,7 @@ Public Class frmSpin
 
 
 
-        btnSpin.Enabled = False
+
 
         Dim randGen As New Random
         Dim intRand As Integer

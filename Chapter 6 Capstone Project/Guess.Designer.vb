@@ -55,6 +55,8 @@ Partial Class frmGuess
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SelectToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btnSpin = New System.Windows.Forms.Button()
+        Me.btnSolve = New System.Windows.Forms.Button()
         Me.gboGuess.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -404,11 +406,31 @@ Partial Class frmGuess
         Me.SelectToolStripMenuItem.Size = New System.Drawing.Size(105, 22)
         Me.SelectToolStripMenuItem.Text = "Select"
         '
+        'btnSpin
+        '
+        Me.btnSpin.Location = New System.Drawing.Point(1000, 92)
+        Me.btnSpin.Name = "btnSpin"
+        Me.btnSpin.Size = New System.Drawing.Size(75, 23)
+        Me.btnSpin.TabIndex = 43
+        Me.btnSpin.Text = "Spin again"
+        Me.btnSpin.UseVisualStyleBackColor = True
+        '
+        'btnSolve
+        '
+        Me.btnSolve.Location = New System.Drawing.Point(1001, 121)
+        Me.btnSolve.Name = "btnSolve"
+        Me.btnSolve.Size = New System.Drawing.Size(75, 23)
+        Me.btnSolve.TabIndex = 44
+        Me.btnSolve.Text = "Solve"
+        Me.btnSolve.UseVisualStyleBackColor = True
+        '
         'frmGuess
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1087, 588)
+        Me.Controls.Add(Me.btnSolve)
+        Me.Controls.Add(Me.btnSpin)
         Me.Controls.Add(Me.txtWord)
         Me.Controls.Add(Me.gboGuess)
         Me.Controls.Add(Me.lblWord)
@@ -457,4 +479,6 @@ Partial Class frmGuess
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents FileToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SelectToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents btnSpin As Button
+    Friend WithEvents btnSolve As Button
 End Class

@@ -108,6 +108,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="SpinAgain.Designer.vb">
+      <DependentUpon>SpinAgain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SpinAgain.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Guess.resx">
@@ -124,6 +130,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpinAgain.resx">
+      <DependentUpon>SpinAgain.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

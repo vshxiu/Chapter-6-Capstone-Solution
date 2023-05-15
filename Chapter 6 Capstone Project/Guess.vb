@@ -137,7 +137,7 @@ Word game", MessageBoxButtons.OK,
         End If
     End Sub
 
-    Private Sub btnQ_Click(sender As Object, e As EventArgs) Handles btnQ.Click
+    Private Async Sub btnQ_Click(sender As Object, e As EventArgs) Handles btnQ.Click
         btnQ.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -146,15 +146,21 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnQ.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnQ.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
 
-        frmSpin.Show()
-        Me.Hide()
+
+
     End Sub
 
-    Private Sub btnW_Click(sender As Object, e As EventArgs) Handles btnW.Click
+    Private Async Sub btnW_Click(sender As Object, e As EventArgs) Handles btnW.Click
         btnW.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -163,15 +169,20 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnW.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnW.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
 
     End Sub
 
-    Private Sub btnE_Click(sender As Object, e As EventArgs) Handles btnE.Click
+    Private Async Sub btnE_Click(sender As Object, e As EventArgs) Handles btnE.Click
         btnE.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -180,16 +191,21 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnE.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnE.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
 
 
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnR_Click(sender As Object, e As EventArgs) Handles btnR.Click
+    Private Async Sub btnR_Click(sender As Object, e As EventArgs) Handles btnR.Click
         btnR.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -198,16 +214,21 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnR.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnR.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
 
 
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnT_Click(sender As Object, e As EventArgs) Handles btnT.Click
+    Private Async Sub btnT_Click(sender As Object, e As EventArgs) Handles btnT.Click
         btnT.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -216,14 +237,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnT.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnT.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnY_Click(sender As Object, e As EventArgs) Handles btnY.Click
+    Private Async Sub btnY_Click(sender As Object, e As EventArgs) Handles btnY.Click
         btnY.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -232,14 +258,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnY.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnY.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnU_Click(sender As Object, e As EventArgs) Handles btnU.Click
+    Private Async Sub btnU_Click(sender As Object, e As EventArgs) Handles btnU.Click
         btnU.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -248,14 +279,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnU.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnU.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnI_Click(sender As Object, e As EventArgs) Handles btnI.Click
+    Private Async Sub btnI_Click(sender As Object, e As EventArgs) Handles btnI.Click
         btnI.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -264,14 +300,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnI.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnI.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnO_Click(sender As Object, e As EventArgs) Handles btnO.Click
+    Private Async Sub btnO_Click(sender As Object, e As EventArgs) Handles btnO.Click
         btnO.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -280,14 +321,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnO.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnO.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnP_Click(sender As Object, e As EventArgs) Handles btnP.Click
+    Private Async Sub btnP_Click(sender As Object, e As EventArgs) Handles btnP.Click
         btnP.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -296,14 +342,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnP.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnP.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnA_Click(sender As Object, e As EventArgs) Handles btnA.Click
+    Private Async Sub btnA_Click(sender As Object, e As EventArgs) Handles btnA.Click
         btnA.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -312,14 +363,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnA.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnA.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnS_Click(sender As Object, e As EventArgs) Handles btnS.Click
+    Private Async Sub btnS_Click(sender As Object, e As EventArgs) Handles btnS.Click
         btnS.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -328,14 +384,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnS.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnS.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnD_Click(sender As Object, e As EventArgs) Handles btnD.Click
+    Private Async Sub btnD_Click(sender As Object, e As EventArgs) Handles btnD.Click
         btnD.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -344,14 +405,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnD.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnD.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnF_Click(sender As Object, e As EventArgs) Handles btnF.Click
+    Private Async Sub btnF_Click(sender As Object, e As EventArgs) Handles btnF.Click
         btnF.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -360,14 +426,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnF.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnF.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnG_Click(sender As Object, e As EventArgs) Handles btnG.Click
+    Private Async Sub btnG_Click(sender As Object, e As EventArgs) Handles btnG.Click
         btnG.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -376,14 +447,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnG.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnG.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnH_Click(sender As Object, e As EventArgs) Handles btnH.Click
+    Private Async Sub btnH_Click(sender As Object, e As EventArgs) Handles btnH.Click
         btnH.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -392,14 +468,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnH.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnH.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnJ_Click(sender As Object, e As EventArgs) Handles btnJ.Click
+    Private Async Sub btnJ_Click(sender As Object, e As EventArgs) Handles btnJ.Click
         btnJ.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -408,14 +489,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnJ.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnJ.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnK_Click(sender As Object, e As EventArgs) Handles btnK.Click
+    Private Async Sub btnK_Click(sender As Object, e As EventArgs) Handles btnK.Click
         btnK.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -424,14 +510,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnK.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnK.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnL_Click(sender As Object, e As EventArgs) Handles btnL.Click
+    Private Async Sub btnL_Click(sender As Object, e As EventArgs) Handles btnL.Click
         btnL.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -440,14 +531,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnL.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnL.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnZ_Click(sender As Object, e As EventArgs) Handles btnZ.Click
+    Private Async Sub btnZ_Click(sender As Object, e As EventArgs) Handles btnZ.Click
         btnZ.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -456,14 +552,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnZ.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnZ.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnX_Click(sender As Object, e As EventArgs) Handles btnX.Click
+    Private Async Sub btnX_Click(sender As Object, e As EventArgs) Handles btnX.Click
         btnX.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -472,14 +573,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnX.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnX.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnC_Click(sender As Object, e As EventArgs) Handles btnC.Click
+    Private Async Sub btnC_Click(sender As Object, e As EventArgs) Handles btnC.Click
         btnC.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -488,14 +594,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnC.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnC.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnV_Click(sender As Object, e As EventArgs) Handles btnV.Click
+    Private Async Sub btnV_Click(sender As Object, e As EventArgs) Handles btnV.Click
         btnV.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -504,14 +615,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnV.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnV.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnB_Click(sender As Object, e As EventArgs) Handles btnB.Click
+    Private Async Sub btnB_Click(sender As Object, e As EventArgs) Handles btnB.Click
         btnB.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -520,14 +636,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnB.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnB.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnN_Click(sender As Object, e As EventArgs) Handles btnN.Click
+    Private Async Sub btnN_Click(sender As Object, e As EventArgs) Handles btnN.Click
         btnN.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -536,14 +657,19 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnN.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
         Else
             btnN.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub btnM_Click(sender As Object, e As EventArgs) Handles btnM.Click
+    Private Async Sub btnM_Click(sender As Object, e As EventArgs) Handles btnM.Click
         btnM.Enabled = False
         Dim strLetter As String
         Dim boo As Boolean
@@ -552,10 +678,27 @@ Word game", MessageBoxButtons.OK,
         If boo = True Then
 
             btnM.BackColor = Color.Green
+            Await Task.Delay(800)
+            SpinAgain.Show()
+            Me.Hide()
+
         Else
             btnM.BackColor = Color.Red
+            Await Task.Delay(800)
+            frmSpin.Show()
+            Me.Hide()
         End If
-        frmSpin.Show()
-        Me.Hide()
+
+
+
+
+
+
     End Sub
+
+    'Private Sub btnSpin_Click(sender As Object, e As EventArgs) Handles btnSpin.Click
+    '    frmSpin.Show()
+    ''    Me.Hide()
+
+    'End Sub
 End Class
